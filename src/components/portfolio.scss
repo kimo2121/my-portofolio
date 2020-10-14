@@ -1,0 +1,154 @@
+.portfolio {
+  width: 100%;
+  .arrow {
+    height: 100px;
+    &:hover {
+      cursor: pointer;
+      color: blueviolet;
+    }
+  }
+  .poster {
+    margin-left: 5%;
+    margin-top: 20px;
+    height: 70vh;
+    min-width: 90%;
+    color: white;
+    background-color: rgb(246, 103, 103);
+    .proj {
+      @media only screen and(max-width:768px) {
+        font-size: 60px;
+      }
+      font-size: 90px;
+      font-weight: 700;
+    }
+    .explore {
+      font-weight: 500;
+      font-size: 23px;
+      color: black;
+    }
+  }
+  .project-template {
+    margin-left: 5%;
+    width: 90%;
+  }
+  .container {
+    height: 500px;
+    flex: 1 1 auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: 1px solid black;
+    overflow: hidden;
+  }
+
+  .car {
+    font-size: 50px;
+    color: purple;
+  }
+
+  .h4 {
+    color: rgb(68, 68, 68);
+    margin: 2px 0px 0px 0px;
+    font-size: 23px;
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    text-align: center;
+  }
+  .h5 {
+    padding: 4px 0px 0px 5px;
+    color: rgb(68, 68, 68);
+    font-size: 17px;
+    margin: 0px 0px 17px 0px;
+    letter-spacing: 0.02em;
+  }
+  .ref {
+    @media only screen and(max-width:660px) {
+      display: block;
+    }
+    display: flex;
+    box-shadow: 0 -5px 3px 0 rgba(0, 0, 0, 0.2),
+      0 -6px 3px 0 rgba(0, 0, 0, 0.19);
+    padding-top: 18px;
+    padding-left: 5px;
+    padding-bottom: 2%;
+    background-color: rgba(250, 223, 70, 0.849);
+    height: 19.5%;
+    min-width: auto !important;
+    border-top-right-radius: 5px;
+    border-top-left-radius: 5px;
+    justify-content: space-between;
+
+    &:hover {
+      text-shadow: 2px 2px 5px rgb(253, 188, 91);
+      color: rgb(241, 9, 9);
+      box-shadow: 0 -5px 3px 0 rgb(253, 166, 170);
+    }
+  }
+
+  .details {
+    background-color: rgb(250, 240, 222);
+    text-align: left;
+    justify-content: left;
+    min-height: 226.5px;
+    border: 1px solid black;
+    text-decoration: none;
+  }
+  .crwn {
+    background-image: url("./crwnclothing.png");
+    height: 100%;
+    width: 100%;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    &:hover {
+      cursor: pointer;
+      transform: scale(1.1);
+      transition: transform 6s cubic-bezier(0.25, 0.45, 0.45, 0.95);
+    }
+  }
+
+  .netflex {
+    background-image: url("./netflex.png");
+    height: 100%;
+    width: 100%;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    &:hover {
+      cursor: pointer;
+      transform: scale(1.1);
+      transition: transform 6s cubic-bezier(0.25, 0.45, 0.45, 0.95);
+    }
+  }
+  .lyrics {
+    background-image: url("./lyrics.png");
+    height: 100%;
+    width: 100%;
+    background-attachment: fixed;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    &:hover {
+      cursor: pointer;
+      transform: scale(1.1);
+      transition: transform 6s cubic-bezier(0.25, 0.45, 0.45, 0.95);
+    }
+  }
+  .calculator {
+    background-image: url("./calc.png");
+    height: 100%;
+    width: 100%;
+    background-attachment: fixed;
+    background-position: center;
+    background-size: contain;
+    background-repeat: no-repeat;
+    &:hover {
+      cursor: pointer;
+      transform: scale(1.1);
+      transition: transform 6s cubic-bezier(0.25, 0.45, 0.45, 0.95);
+    }
+  }
+}

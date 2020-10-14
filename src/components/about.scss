@@ -1,0 +1,377 @@
+.about-me {
+  .poster {
+    margin-left: 5%;
+    margin-top: 20px;
+    min-height: 70vh;
+    width: 90%;
+    color: white;
+    background-color: rgb(114, 112, 255);
+    .proj {
+      @media only screen and(max-width:768px) {
+        font-size: 60px;
+      }
+      font-size: 90px;
+      font-weight: 700;
+    }
+    .explore {
+      margin-top: 100px;
+      font-weight: 500;
+      font-size: 23px;
+      color: rgb(49, 49, 49);
+    }
+  }
+  .part1 {
+    margin-left: 5vw;
+    width: 90%;
+
+    .section-1 {
+      @media only screen and(max-width:768px) {
+        display: block;
+
+        .passion {
+          .know-me {
+            font-size: 35px !important;
+          }
+          padding-bottom: 10%;
+          padding-top: 10%;
+          padding-left: 20% !important;
+
+          width: 50%;
+        }
+        .ill-pic {
+          display: none;
+          width: 80%;
+        }
+      }
+
+      min-height: 100%;
+      display: flex;
+      justify-content: center;
+      .left-pane {
+        min-height: 90vh;
+        min-width: 35%;
+        background-color: rgb(246, 103, 103);
+      }
+      .right-pane {
+        min-height: 90vh;
+        min-width: 65%;
+        background-color: rgb(250, 223, 70);
+
+        .passion {
+          text-align: left;
+          padding-top: 100px;
+          font-weight: 700;
+          padding-left: 30%;
+          width: 65%;
+          padding-bottom: 10%;
+          color: white;
+          .know-me {
+            font-weight: 700;
+            margin: 0;
+            font-size: 60px;
+          }
+          .intro-me {
+            font-weight: 100;
+          }
+        }
+      }
+    }
+  }
+  .ill-pic {
+    position: absolute;
+    float: left;
+    margin-left: 10%;
+    padding-left: 1%;
+    margin-top: 51px;
+    min-height: 75%;
+    min-width: 35%;
+    background-image: url("./likeme.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-color: white;
+  }
+
+  .part2 {
+    background-color: rgb(250, 240, 222);
+    min-height: 90vh;
+    margin-left: 5%;
+    width: 90%;
+
+    .exp {
+      min-height: 20%;
+      font-size: 60px;
+      color: rgb(44, 44, 44);
+      text-align: left;
+      margin-left: 11%;
+      padding-bottom: 52px;
+      margin-top: 40px;
+      @media only screen and(max-width:768px) {
+        font-size: 35px;
+      }
+      .per {
+        font-size: 20px;
+      }
+    }
+    .divider1 {
+      margin-top: 75px;
+    }
+
+    .divider3 {
+      margin-top: 72px;
+    }
+    .self {
+      @media only screen and(max-width:768px) {
+        display: block;
+        padding-bottom: 3%;
+        .more {
+          padding-left: 20%;
+          min-width: 55% !important;
+        }
+        .develop {
+          padding-left: 20%;
+          min-width: 55% !important;
+        }
+        .edu {
+          padding-left: 20%;
+          min-width: 55% !important;
+        }
+      }
+      padding-bottom: 3%;
+      min-height: 80%;
+      display: flex;
+      justify-content: space-evenly;
+      min-width: 100%;
+      flex-direction: row;
+      .edu {
+        font-weight: 700;
+        font-size: 28px;
+        width: 18%;
+        text-align: start;
+        color: rgb(49, 49, 49);
+        .p4 {
+          font-weight: 100;
+          font-size: 20px;
+          text-align: start;
+          font-weight: lighter;
+        }
+      }
+      .develop {
+        font-weight: 700;
+        font-size: 28px;
+        text-align: start;
+        width: 18%;
+        color: rgb(49, 49, 49);
+        .p3 {
+          font-weight: 100;
+          font-size: 20px;
+          text-align: start;
+          font-weight: lighter;
+        }
+      }
+      .more {
+        font-weight: 700;
+        font-size: 28px;
+        text-align: start;
+        width: 18%;
+        color: rgb(49, 49, 49);
+        .p2 {
+          font-weight: 100;
+          font-size: 20px;
+          text-align: start;
+          font-weight: lighter;
+        }
+      }
+    }
+  }
+  .part3 {
+    @media only screen and (max-width: 1024px) {
+      display: block;
+      .coding-pic {
+        background-size: auto;
+        background-position: center;
+        margin-top: -3.2%;
+      }
+    }
+    display: flex;
+    color: white;
+    background-color: rgb(114, 112, 255);
+    min-height: 110vh;
+    margin-left: 5%;
+    width: 90%;
+    .coding-pic {
+      @media only screen and (max-width: 900px) {
+        margin-top: -4.5%;
+      }
+      @media only screen and (max-width: 635px) {
+        margin-top: -5%;
+      }
+      @media only screen and (max-width: 570px) {
+        margin-top: -6%;
+      }
+      @media only screen and (max-width: 480px) {
+        margin-top: -7%;
+      }
+      @media only screen and (max-width: 400px) {
+        margin-top: -8.2%;
+      }
+      @media only screen and (max-width: 340px) {
+        margin-top: -9.2%;
+      }
+      min-width: 35%;
+      min-height: 110vh !important;
+      background-size: cover;
+      background-position: center;
+      background-repeat: no-repeat;
+      background-image: url("./time.jpg");
+    }
+    .my-skills {
+      min-height: 109vh;
+      min-width: 65%;
+      padding-bottom: 2%;
+      .title-skills {
+        @media only screen and(max-width:768px) {
+          font-size: 35px;
+          padding-left: 11%;
+          .soft-skills {
+            font-size: 24px;
+          }
+        }
+        min-height: 17%;
+        font-size: 60px;
+        color: white;
+        text-align: left;
+        margin-left: 11%;
+        padding-bottom: 50px;
+        margin-top: 40px;
+        .per {
+          font-size: 20px;
+        }
+      }
+      .soft-skills {
+        color: rgb(250, 223, 70);
+        font-size: 28px;
+        font-weight: 700;
+      }
+      .skills {
+        @media only screen and(max-width:768px) {
+          display: block;
+          padding-bottom: 20px;
+          .more {
+            padding-left: 22%;
+            min-width: 50% !important;
+          }
+          .develop {
+            padding-left: 22%;
+            min-width: 50% !important;
+          }
+          .edu {
+            padding-left: 22%;
+            min-width: 55% !important;
+          }
+        }
+        min-height: 83%;
+        display: flex;
+        justify-content: space-evenly;
+        flex-direction: row;
+        .edu {
+          color: rgb(250, 223, 70);
+          font-size: 28px;
+          font-weight: 700;
+          width: 18%;
+          text-align: start;
+          .p4 {
+            color: white;
+            font-weight: 100;
+            font-size: 20px;
+            text-align: start;
+            font-weight: lighter;
+          }
+        }
+        .develop {
+          font-weight: 700;
+          font-size: 28px;
+          text-align: start;
+          width: 18%;
+
+          .p3 {
+            font-weight: 100;
+            font-size: 20px;
+            text-align: start;
+            font-weight: lighter;
+          }
+        }
+        .more {
+          font-weight: 700;
+          font-size: 28px;
+          text-align: start;
+          width: 18%;
+          .p2 {
+            font-weight: 100;
+            font-size: 20px;
+            text-align: start;
+            font-weight: lighter;
+          }
+        }
+      }
+    }
+  }
+  .part4 {
+    @media only screen and(max-width:768px) {
+      display: block;
+    }
+    display: flex;
+    color: rgb(49, 49, 49);
+    background-color: rgb(250, 240, 222);
+    min-height: 100vh;
+    margin-left: 5%;
+    width: 90%;
+    .extra-stuff {
+      @media only screen and(max-width:768px) {
+        padding-left: 25%;
+      }
+      width: 35%;
+      font-size: 60px;
+      text-align: left;
+      padding-left: 10%;
+      margin-top: 13%;
+    }
+    .per {
+      font-size: 20px;
+    }
+    .hobbies {
+      min-width: 65%;
+      height: 100%;
+      padding-bottom: 3%;
+
+      .hobby-name {
+        color: rgb(26, 26, 26);
+        height: 100%;
+        font-size: 28px;
+        font-weight: 700;
+        width: 40%;
+        text-align: start;
+      }
+      .hobby {
+        font-weight: 400;
+        text-align: start;
+        font-size: 20px;
+      }
+
+      .misc {
+        @media only screen and(max-width:500px) {
+          display: block;
+          padding-left: 25%;
+          padding-bottom: 10%;
+          .hobby-name {
+            min-width: 50% !important;
+          }
+        }
+        margin-top: 17%;
+        justify-content: space-around;
+        height: 100%;
+        display: flex;
+      }
+    }
+  }
+}

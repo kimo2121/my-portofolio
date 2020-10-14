@@ -1,0 +1,258 @@
+.poster {
+  margin-left: 5%;
+  margin-top: 20px;
+  min-height: 70vh;
+  width: 90%;
+  color: white;
+  background-color: rgb(246, 103, 103);
+  .proj {
+    @media only screen and(max-width:768px) {
+      font-size: 60px;
+    }
+    font-size: 90px;
+    font-weight: 700;
+  }
+  .explore {
+    margin-top: 100px;
+    font-weight: 500;
+    font-size: 23px;
+    color: black;
+  }
+}
+.social-links {
+  @media only screen and(max-width:1024px) {
+    padding-top: 5%;
+    .links {
+      padding-bottom: 3%;
+      padding-top: 2% !important;
+    }
+  }
+  background-color: rgb(235, 235, 235);
+  color: black;
+  padding-right: 5%;
+  padding-top: 20%;
+  padding-left: 4%;
+  .last-text {
+    text-align: flex-start;
+  }
+  .links {
+    padding-top: 6%;
+  }
+}
+
+.section2 {
+  background-color: rgb(250, 240, 222);
+  min-height: 90vh;
+  margin-left: 5%;
+  width: 90%;
+  .want-project {
+    font-size: 60px;
+    @media only screen and(max-width:1024px) {
+      font-size: 35px;
+    }
+  }
+  .contact-details {
+    display: flex;
+    .e-mail {
+      font-size: 28px;
+      font-weight: 700;
+      .p-one {
+        font-size: 20px;
+        font-weight: 100;
+      }
+    }
+    .phone-num {
+      font-size: 28px;
+      font-weight: 700;
+      .p-two {
+        font-size: 20px;
+        font-weight: 100;
+      }
+    }
+    .phy-address {
+      font-size: 28px;
+      font-weight: 700;
+      .p-three {
+        font-size: 20px;
+        font-weight: 100;
+      }
+    }
+  }
+  .self {
+    @media only screen and(max-width:1024px) {
+      display: block;
+      padding-bottom: 3%;
+      .more {
+        padding-left: 20%;
+        min-width: 55% !important;
+      }
+      .develop {
+        padding-left: 20%;
+        min-width: 55% !important;
+      }
+      .edu {
+        padding-left: 20%;
+        min-width: 55% !important;
+      }
+    }
+    padding-bottom: 3%;
+    min-height: 80%;
+    display: flex;
+    justify-content: space-evenly;
+    min-width: 100%;
+    flex-direction: row;
+    .edu {
+      font-weight: 700;
+      font-size: 28px;
+      width: 18%;
+      text-align: start;
+      .p4 {
+        font-weight: 100;
+        font-size: 20px;
+        text-align: start;
+        font-weight: lighter;
+      }
+    }
+    .develop {
+      font-weight: 700;
+      font-size: 28px;
+      text-align: start;
+      width: 25%;
+
+      .p3 {
+        font-weight: 100;
+        font-size: 20px;
+        text-align: start;
+        font-weight: lighter;
+      }
+    }
+    .more {
+      font-weight: 700;
+      font-size: 28px;
+      text-align: start;
+      width: 25%;
+      .p2 {
+        font-weight: 100;
+        font-size: 20px;
+        text-align: start;
+        font-weight: lighter;
+      }
+    }
+  }
+}
+
+.write-down {
+  min-height: 110vh;
+  min-width: 70%;
+  margin-left: 50px;
+  .honor {
+    font-size: 60px;
+    font-weight: 700;
+    height: 15vh;
+    text-align: left;
+    margin-top: 40px;
+    .write-me {
+      font-weight: 100;
+      font-size: 20px;
+    }
+  }
+  .fill-out {
+    min-height: 65vh;
+    margin-top: 170px;
+    min-width: 90%;
+    @media only screen and(max-width:768px) {
+      .msg {
+        top: 43px;
+      }
+    }
+    .comm {
+      @media only screen and(max-width:768px) {
+        display: block;
+        min-width: auto;
+      }
+      justify-content: space-evenly;
+      min-width: 90%;
+      display: flex;
+    }
+  }
+}
+.drop-line {
+  @media only screen and(max-width:1024px) {
+    display: block;
+  }
+  display: flex;
+  color: white;
+  background-color: rgb(250, 223, 70);
+  min-height: 109vh;
+  margin-left: 5%;
+  width: 90%;
+}
+.msg {
+  top: 40px;
+  height: 140px;
+  background-color: transparent;
+  position: relative;
+  width: 90%;
+  color: rgb(59, 59, 59);
+  font-size: 20px;
+  display: block;
+  border: 1px solid rgb(59, 59, 59);
+  border-radius: 5px;
+  resize: vertical;
+  &::placeholder {
+    color: rgb(59, 59, 59);
+    font-size: 18px;
+    font-weight: normal;
+    pointer-events: none;
+    transition: font-size 300ms;
+  }
+  &:focus {
+    &::placeholder {
+      font-size: 14px;
+      text-shadow: 0px 0px 4px rgb(81, 171, 255);
+      color: rgb(81, 171, 255);
+    }
+    outline: none;
+    border: 1px solid rgb(81, 171, 255);
+  }
+}
+.span {
+  position: relative;
+  float: left;
+  margin-top: 16vw;
+}
+
+.submit-button {
+  @media only screen and(max-width:768px) {
+    margin-bottom: 10% !important;
+    margin-top: 12% !important;
+    font-size: 20px;
+  }
+  @media only screen and(max-width:1024px) {
+    margin-top: 9%;
+  }
+  transition-duration: 0.4s;
+  min-height: 5vh;
+  min-width: 17%;
+  margin-left: 65%;
+  margin-top: 10%;
+  margin-bottom: 10%;
+  border: none;
+  border-radius: 4px;
+  text-align: center;
+  font-size: 24px;
+  padding: 5px;
+  transition: all 0.5s;
+  cursor: pointer;
+  &:hover {
+    border: 0;
+    background-color: #4caf50;
+    color: white;
+  }
+}
+
+.name-fill,
+.email-fill,
+.subject-fill {
+  min-width: 33%;
+}
