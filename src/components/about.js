@@ -1,5 +1,7 @@
 import React from "react";
 import "./about.scss";
+import { SocialIcon } from "react-social-icons";
+
 const About = ({ match }) => (
   <div className="about-me">
     <div className="poster">
@@ -152,6 +154,10 @@ const About = ({ match }) => (
           </div>
         </div>
       </div>
+    </div>
+    <div className="cv">
+      <span className="resume-link">Here is the link to my resume </span>
+      <SocialIcon url="https://drive.google.com/file/d/1czpiUYX20FtRv2sILG6gYtu_bfTPksVq/view?usp=sharing" />
     </div>
   </div>
 );
