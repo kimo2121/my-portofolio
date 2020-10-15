@@ -24,7 +24,7 @@ const About = ({ match }) => (
             <p className="intro-me">
               My name is Kareem Muhammad Ali
               <br />
-              I'm located in Egypt and I'm self-study
+              I'm located in Egypt and I'm self-taught
               <br /> Font-end web developer I love coding
               <br /> and tech stuff, I`d like to believe that I'm
               <br /> smart, I'm positive person who is dreaming
