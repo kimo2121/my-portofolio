@@ -27,8 +27,8 @@ function Navbar() {
             </li>
             {SidebarData.map((item, index) => {
               return (
-                <li onClick={showSidebar} key={index} className={item.cName}>
-                  <Link to={item.path}>
+                <li key={index} className={item.cName}>
+                  <Link onClick={showSidebar} to={item.path}>
                     {item.icon}
                     <span>{item.title}</span>
                   </Link>
