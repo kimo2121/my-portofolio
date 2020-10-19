@@ -46,16 +46,16 @@ const About = ({ match }) => (
           Good To Know
           <p className="p2">
             I'm passionate about coding so I decided to shift career, and
-            started learning programming on self-paced manner since 2020
+            started learning programming on self-paced manner since 2019
           </p>
           <hr className="divider1" />
         </div>
         <div className="develop">
           Work Experience
           <p className="p3">
-            Haven't worked for any company yet but I'm passionate and highly
-            motivated about coding, skilled about what I already learnt, quick
-            learner and eager to learn more
+            Working as Freelancer also I'm passionate and motivated about
+            coding, skilled in what I learnt, quick learner and eager to learn
+            more
           </p>
           <hr className="divider2" />
         </div>
