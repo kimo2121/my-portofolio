@@ -157,7 +157,7 @@ const About = ({ match }) => (
     </div>
     <div className="cv">
       <span className="resume-link">Here is the link to my resume </span>
-      <SocialIcon url="https://drive.google.com/file/d/1czpiUYX20FtRv2sILG6gYtu_bfTPksVq/view?usp=sharing" />
+      <SocialIcon url="https://drive.google.com/file/d/1J1XR1TrdbNvmfwCyZU8GnC8_jZqBJ7cw/view?usp=sharing" />
     </div>
   </div>
 );
