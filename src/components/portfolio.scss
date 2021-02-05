@@ -28,8 +28,18 @@
     }
   }
   .project-template {
-    margin-left: 5%;
-    width: 90%;
+    margin-left: 2%;
+    width: 45.4%;
+    margin-bottom: 2%;
+    margin-top: 2%;
+    border-radius: 5px !important;
+    box-shadow: 0 0px 1px 1.3px rgba(100, 100, 100, 0.486);
+  }
+  .templates-container {
+    display: flex;
+    margin-left: 3.2%;
+
+    flex-wrap: wrap;
   }
   .container {
     height: 500px;
@@ -37,15 +47,12 @@
     display: flex;
     align-items: center;
     justify-content: center;
-    border: 1px solid black;
     overflow: hidden;
   }
-
   .car {
     font-size: 50px;
     color: purple;
   }
-
   .h4 {
     color: rgb(68, 68, 68);
     margin: 2px 0px 0px 0px;
@@ -63,26 +70,23 @@
     letter-spacing: 0.02em;
   }
   .ref {
-    @media only screen and(max-width:660px) {
-      display: block;
-    }
-    display: flex;
-    box-shadow: 0 -5px 3px 0 rgba(0, 0, 0, 0.2),
-      0 -6px 3px 0 rgba(0, 0, 0, 0.19);
-    padding-top: 18px;
+    display: block;
+    box-shadow: 0 -2px 3px 0 rgba(0, 0, 0, 0.144),
+      0 -2px 2.5px 0 rgba(0, 0, 0, 0.19);
+    margin-top: 2%;
+    position: relative;
+    padding-top: 2%;
     padding-left: 5px;
     padding-bottom: 2%;
+    line-height: 1.4;
     background-color: rgba(250, 223, 70, 0.849);
-    height: 19.5%;
+    height: 15.5%;
     min-width: auto !important;
-    border-top-right-radius: 5px;
-    border-top-left-radius: 5px;
     justify-content: space-between;
-
     &:hover {
       text-shadow: 2px 2px 5px rgb(253, 188, 91);
       color: rgb(241, 9, 9);
-      box-shadow: 0 -5px 3px 0 rgb(253, 166, 170);
+      box-shadow: 0 -3px 3px 0 rgb(253, 166, 170);
     }
   }
 
@@ -90,61 +94,15 @@
     background-color: rgb(250, 240, 222);
     text-align: left;
     justify-content: left;
-    min-height: 226.5px;
-    border: 1px solid black;
+    min-height: auto;
+    border-top: 1px solid rgba(0, 0, 0, 0.424);
     text-decoration: none;
   }
-  .crwn {
-    background-image: url("./crwnclothing.png");
-    height: 100%;
-    width: 100%;
-    background-attachment: fixed;
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
-    &:hover {
-      cursor: pointer;
-      transform: scale(1.1);
-      transition: transform 6s cubic-bezier(0.25, 0.45, 0.45, 0.95);
-    }
-  }
-
-  .netflex {
-    background-image: url("./netflex.png");
-    height: 100%;
-    width: 100%;
-    background-attachment: fixed;
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
-    &:hover {
-      cursor: pointer;
-      transform: scale(1.1);
-      transition: transform 6s cubic-bezier(0.25, 0.45, 0.45, 0.95);
-    }
-  }
-  .lyrics {
-    background-image: url("./lyrics.png");
-    height: 100%;
-    width: 100%;
-    background-attachment: fixed;
-    background-position: center;
-    background-size: cover;
-    background-repeat: no-repeat;
-    &:hover {
-      cursor: pointer;
-      transform: scale(1.1);
-      transition: transform 6s cubic-bezier(0.25, 0.45, 0.45, 0.95);
-    }
-  }
-  .calculator {
-    background-image: url("./calc.png");
-    height: 100%;
-    width: 100%;
-    background-attachment: fixed;
-    background-position: center;
-    background-size: contain;
-    background-repeat: no-repeat;
+  .image {
+    height: 101%;
+    width: 111%;
+    object-fit: fill;
+    object-position: center;
     &:hover {
       cursor: pointer;
       transform: scale(1.1);
