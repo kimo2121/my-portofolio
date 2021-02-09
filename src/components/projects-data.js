@@ -3,6 +3,7 @@ import crwnclothing from "../assets/crwnclothing.png";
 import netflex from "../assets/netflex.png";
 import lyrics from "../assets/lyrics.png";
 import calc from "../assets/calc.png";
+import todo from "../assets/todo.png";
 
 const Data = [
   {
@@ -54,6 +55,16 @@ const Data = [
     Authintication: "none",
     url: "https://ca-culator.herokuapp.com/",
     code: "https://github.com/kimo2121/my-calculator",
+  },
+  {
+    image: todo,
+    name: "Todo-app",
+    tech: "React",
+    state_management: "local state(Hooks)",
+    styling: "css",
+    Authintication: "none",
+    url: "https://youthful-todo-list.netlify.app/",
+    code: "https://github.com/kimo2121/todo-list",
   },
 ];
 export default Data;
